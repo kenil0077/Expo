@@ -1,0 +1,12 @@
+{
+  "name": "honestit-expo-registration",
+  "version": "1.0.0",
+  "description": "HonestIT Expo Visitor Registration Form",
+  "scripts": {
+    "start": "npx serve -s . -l 10000"
+  },
+  "keywords": ["expo", "registration", "form"],
+  "author": "HonestIT",
+  "license": "MIT"
+}
+

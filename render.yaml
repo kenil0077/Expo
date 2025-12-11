@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: honestit-expo-registration
+    env: docker
+    dockerfilePath: ./Dockerfile
+    dockerContext: .
+    plan: free
+    buildCommand: ""
+    startCommand: ""
+    envVars:
+      - key: NODE_ENV
+        value: production
+
